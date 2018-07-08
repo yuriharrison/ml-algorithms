@@ -7,7 +7,7 @@ This project was made to save my Machine Learning Algorithms.
 * numpy
 * matplotlib
 * pandas
-* scikit_learn
+* scikit-learn
 * tensorflow - (only in neural network algorithms) - [Install TensorFlow](https://www.tensorflow.org/install/)
 
 ###### You can use:
