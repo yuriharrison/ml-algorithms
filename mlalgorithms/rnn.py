@@ -1,4 +1,4 @@
-"""Recurrent Neural Network with TensorFlow Exemplo"""
+"""Recurrent Neural Network with TensorFlow Example"""
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 from tensorflow.python.ops import rnn, rnn_cell

@@ -1,4 +1,4 @@
-"""MeanShift Algorithm"""
+"""Mean Shift Algorithm"""
 import matplotlib.pyplot as plt
 from matplotlib import style
 import numpy as np
