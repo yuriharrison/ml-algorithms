@@ -8,7 +8,7 @@ import random
 style.use('fivethirtyeight')
 
 
-def create_data(range, variance, step=2, correlation=False):
+def create_data(r, variance, step=2, correlation=False):
     """Generate a random data
     
     -- Arguments
@@ -30,7 +30,7 @@ def create_data(range, variance, step=2, correlation=False):
     """
     val = 1
     ys = []
-    for _ in range(range):
+    for _ in range(r):
         y = val + random.randrange(-variance, variance)
         ys.append(y)
         if correlation and correlation == 'pos':
